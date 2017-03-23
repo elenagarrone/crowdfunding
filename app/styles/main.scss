@@ -72,21 +72,45 @@ body {
     font-size: 16px;
   }
 
+  table.inv {
+    margin-bottom: 15px;
+    th, td {
+      font-size: 14px;
+    }
+  }
+
+  table {
+    width: 100%;
+  }
+
+  .filtered {
+    display: none;
+  }
+
   .hero-filter-box {
     margin-top: 28px;
     background-color: #e6e6e6;
     color: #333;
     padding: 40px;
 
+    .cta {
+      margin-top: 40px;
+      .btn {
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+    }
+
     .hero-filters {
       margin-top: 30px;
+
       .btn {
         margin-top: 10px;
         margin-right: 18px;
         background-color: #007faa;
         border-color: #007faa;
 
-        &:hover, &:focus {
+        &:hover, &:focus, &.active {
           border: 1px solid #007faa;
           background-color: rgba(255, 255, 255, 0.55);
           color: #007faa;
@@ -177,6 +201,10 @@ body {
     i {
         margin-right: 5px;
     }
+}
+
+.caption p {
+  margin: 0 0 5px;
 }
 
 .subtitle {
