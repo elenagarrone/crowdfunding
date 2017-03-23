@@ -49,7 +49,7 @@ body .header {
 }
 
 body .progress-bar {
-    background-color: #4CAF50;
+    background-color: #00ab07;
 }
 body .progress {
     margin-top: 5px;
@@ -60,6 +60,27 @@ body .progress {
 body {
   a {
     color: #007faa;
+  }
+
+  .title-soc {
+    display: inline-block;
+  }
+
+  .socials {
+    position: relative;
+    top: 4px;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 15px;
+    display: inline-block;
+    margin-left: 16px;
+
+    li {
+      margin-left: 15px;
+      &:first-child {
+        margin-left: 0;
+      }
+    }
   }
 
   .fa-chevron-right {
@@ -94,6 +115,27 @@ body {
   .wind {
     line-height: 1.5;
     font-size: 16px;
+  }
+
+  .overview {
+    th, td {
+      font-size: 14px;
+    }
+
+    &.sec {
+      margin-top: 15px;
+    }
+  }
+
+  .hero .container .hero-text p {
+    &.a {
+      font-size: 20px;
+      margin-bottom: 0;
+    }
+    &.b {
+      font-size: 20px;
+      font-weight: bold;
+    }
   }
 
   .tags {
@@ -177,12 +219,22 @@ body {
     }
   }
 
+  .box-side {
+    margin-top: 20px;
+    background-color: rgba(198, 241, 255, 0.4);
+    padding: 15px;
+
+    h2 {
+      color: #00ab07;
+    }
+  }
+
   .hero .container {
     position: relative;
     .hero-text {
       text-align: center;
       position: absolute;
-      top: 165px;
+      top: 175px;
       left: 50%;
       transform: translate(-50%, -50%);
 
