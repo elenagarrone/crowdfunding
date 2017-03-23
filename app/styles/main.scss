@@ -83,12 +83,61 @@ body {
     width: 100%;
   }
 
-  .thumbnail img {
-      height: 233.19px;
-  }
-
   .filtered {
     display: none;
+  }
+
+  .card {
+    margin-top: 40px;
+  }
+
+  .wind {
+    line-height: 1.5;
+    font-size: 16px;
+  }
+
+  .tags {
+    margin-bottom: 15px;
+    a {
+      font-size: 14px;
+      color: #007faa;
+    }
+  }
+
+  .tab-content {
+    border: 1px solid #c6f1ff;
+    border-top: 0;
+  }
+
+  .nav-tabs {
+      border-bottom: 1px solid #c6f1ff;
+  }
+
+  .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    border: 1px solid #c6f1ff;
+    border-bottom-color: transparent;
+  }
+
+  .tab-pane {
+    padding: 20px;
+  }
+
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+  .wrapper-main {
+      margin-top: 40px;
   }
 
   .hero-filter-box {
