@@ -12,3 +12,7 @@ $('#filter').on('click', function(){
    $('.rm').css('display', 'none');
    $('.filtered').css('display', 'block');
 });
+
+$('.fa.two').on('click', function(){
+  $('.hero-feature').css('display', 'block');
+});
