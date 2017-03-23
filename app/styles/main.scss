@@ -68,6 +68,38 @@ body {
     top: 10px;
   }
 
+  .hero-text {
+    font-size: 16px;
+  }
+
+  .hero-filter-box {
+    margin-top: 28px;
+    background-color: #e6e6e6;
+    color: #333;
+    padding: 40px;
+
+    .hero-filters {
+      margin-top: 30px;
+      .btn {
+        margin-top: 10px;
+        margin-right: 18px;
+        background-color: #007faa;
+        border-color: #007faa;
+
+        &:hover, &:focus {
+          border: 1px solid #007faa;
+          background-color: rgba(255, 255, 255, 0.55);
+          color: #007faa;
+          transition: all 0.3s ease-in;
+        }
+
+        i {
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+
   .hero .container {
     position: relative;
     .hero-text {
