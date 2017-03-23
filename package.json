@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "node index.js"
+    "start": "npm install && bower install"
   },
   "private": true,
   "engines": {
